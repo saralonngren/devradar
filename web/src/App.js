@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './global.css'
 import './App.css'
 import './Sidebar.css'
+import './Main.css'
 
 
 function App() {
@@ -36,7 +37,55 @@ function App() {
       </form>
     </aside>
     <main>
+      <ul>
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars3.githubusercontent.com/u/10124552?s=460&v=4" alt="Sara Lonngren"/>
+            <div className="user-info">
+              <strong>Sara Lonngren</strong>
+              <strong>Ruby on Rails</strong>
+            </div>
+          </header>
+          <p>Backend Developer at Agenda Edu ♥ </p>
+          <a href="https://github.com/SaraLonngren">Acessar perfil no Github</a>
+        </li>
 
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars3.githubusercontent.com/u/10124552?s=460&v=4" alt="Sara Lonngren"/>
+            <div className="user-info">
+              <strong>Sara Lonngren</strong>
+              <strong>Ruby on Rails</strong>
+            </div>
+          </header>
+          <p>Backend Developer at Agenda Edu ♥</p>
+          <a href="https://github.com/SaraLonngren">Acessar perfil no Github</a>
+        </li>
+
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars3.githubusercontent.com/u/10124552?s=460&v=4" alt="Sara Lonngren"/>
+            <div className="user-info">
+              <strong>Sara Lonngren</strong>
+              <strong>Ruby on Rails</strong>
+            </div>
+          </header>
+          <p>Backend Developer at Agenda Edu ♥</p>
+          <a href="https://github.com/SaraLonngren">Acessar perfil no Github</a>
+        </li>
+
+        <li className="dev-item">
+          <header>
+            <img src="https://avatars3.githubusercontent.com/u/10124552?s=460&v=4" alt="Sara Lonngren"/>
+            <div className="user-info">
+              <strong>Sara Lonngren</strong>
+              <strong>Ruby on Rails</strong>
+            </div>
+          </header>
+          <p>Backend Developer at Agenda Edu ♥</p>
+          <a href="https://github.com/SaraLonngren">Acessar perfil no Github</a>
+        </li>
+      </ul>
     </main>
   </div>
   )
